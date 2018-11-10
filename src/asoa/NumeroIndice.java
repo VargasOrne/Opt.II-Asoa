@@ -38,5 +38,40 @@ public class NumeroIndice {
 	public void setX(ArrayList<Double> x) {
 		this.x=x;
 	}
+	
+	
+	public ArrayList<Double> getFx(){
+		return Fx;
 	}
-}
+	public void setFx(ArrayList<Double> Fx){
+		this.Fx= Fx;
+	}
+	
+	
+	public ArrayList<Double> getMuestra(){
+		return muestra;
+	}
+	public void setMuestra(ArrayList<Double> muestra) {
+		this.muestra=muestra;
+	}
+	
+	
+	public ArrayList<Double> getSerie(){
+		return serie;
+	}
+	public void setSerie(ArrayList<Double> serie) {
+		this.serie=serie;
+	}
+	
+	
+	public void NumIndice() {
+		int n= this.getSerie().size();
+//		for (int k=0;k <this.getN;k++) {
+		for (int k=0;k <5;k++) {  //asigno un valor, que k sea menor que 5
+			while (this.getSerie().get((int)k)> this.getFx().get((int)j));
+			j=j+1;
+			}
+			//this.setMuetra().get(k)= this.setX().get(j);
+			}
+		}
+	
